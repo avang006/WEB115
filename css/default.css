@@ -1,0 +1,259 @@
+body {
+	background-image: url("http://students.cpcc.edu/~avang006/web_115/images/tocbackground.png");
+	background-size: 10%;
+	color: black;
+	font-family: 'Montserrat';
+	font-size: 1.5em;
+	text-align: center;
+}
+h1 {
+	color: #000000;
+	margin: 50px;
+	text-align: center;
+	font-family: 'Allura';
+	font-size: 120px;
+}
+h2 {
+	color: #000000;
+	margin: 10px;
+	text-align: center;
+	font-family: 'Allura';
+	font-size: 50px;
+}
+h3 {
+	color: #000000;
+	margin: 5px;
+	text-align: center;
+	font-family: 'Allura';
+	font-size: 40px;
+}
+#outerwrap {
+	position: relative;
+	text-align: center;
+	width: 800px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#layer1 {
+	position: relative;
+	height: 50px;
+	width: 300px;
+	top: 0px;
+	left: 700px;
+	font-family: 'Annie Use Your Telescope';
+	font-size:	1.5em;
+	text-align: right;
+}
+p {
+	text-align: left;
+}
+#p2 {
+	text-align: left;
+}
+#p3 {
+	text-align: center;
+}
+#navigation {
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	padding: 0;
+	text-align: center;
+	text-decoration: none;
+ 	color: black;
+ 	font-size: 1.5em;
+ 	background-color: #9494c7;
+ 	height: 50px;
+	width: 100%;
+	font-family: 'Annie Use Your Telescope';
+}
+nav a:visited {
+	color: black;
+	text-decoration: none;
+}
+nav a:active {
+	color: black;
+	text-decoration: none;
+}
+nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+a:active {
+	color: black;
+	text-decoration: none;
+}
+#fOne {
+	margin-left: auto;
+	margin-right: auto;
+}
+#box3 { 
+	width: 100%;
+	position: relative;
+    height: 100%;
+	font-family: 'Annie Use Your Telescope';
+	text-align: center;
+}
+#block1 {
+	background-image: url("http://students.cpcc.edu/~avang006/web_115/images/tocbackground.png");
+	background-size: 50%;
+	width: 100px;
+	padding: 19px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Annie Use Your Telescope';
+	border-style: solid; 
+	border-color: black; 
+	border-width: 2px;
+	}
+#block2 {
+	background-color: Black;
+	color: white;
+	width: 82px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Annie Use Your Telescope';
+}
+#block3 {
+	background-color: #9494c7;
+	width: 105px;
+	padding: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-family: 'Annie Use Your Telescope';
+	padding-bottom: 2em;
+}
+#box1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	position: relative;
+    height: 100%;
+	font-family: 'Annie Use Your Telescope';
+}
+#box1 a:link { color: black;
+text-decoration: none;
+}
+#box1 a:visited { color: black;
+text-decoration: none;
+}
+#box1 a:hover { color: white;
+text-decoration: none;
+}
+#box1 a:active { color: black;
+text-decoration: none;
+}
+#box2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	position: relative;
+    height: 100%;
+	font-family: 'Annie Use Your Telescope';
+	text-align: center;
+}
+#box4 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	position: relative;
+    height: 100%;
+	font-family: 'Annie Use Your Telescope';
+}
+table {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding-bottom: 1em;
+	font-family: 'Annie Use Your Telescope';
+}
+#function {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	position: relative;
+	text-align: center;
+	font-family: 'Annie Use Your Telescope';
+	padding-bottom: 1em;
+}
+.validation a:link { color: black;
+text-decoration: none;
+}
+.validation a:visited { color: black;
+text-decoration: none;
+}
+.validation a:hover { color: white;
+text-decoration: none;
+}
+.validation a:active { color: black;
+text-decoration: none;
+}
+.validation {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: #9494c7;
+  text-align: center;
+  color: black;
+  width: 100%;
+  font-family: 'Annie Use Your Telescope';
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #d2bfff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: none;
+}
+
+.button:hover {background-color: #4F517D}
+
+.button:active {
+  background-color: #ffffff;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+.button2 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #d2bfff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: none;
+}
+
+.button2:hover {background-color: #4F517D}
+
+.button2:active {
+  background-color: #ffffff;
+  box-shadow: none;
+  transform: translateY(4px);
+}
