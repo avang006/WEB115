@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<div data-include="components/head.html"></div>
+</head>
+<body>
+<div data-include="components/header.html"></div>
+<nav id="navigation">
+</nav>
+<h2>Fizz Buzz 4</h2>
+<h3 id="greeting">Welcome to Lunar Creations,</h3>
+<div id="box2">  
+<form id="fOne">
+    <p id="p2">First Name: <input type="text" size=65 id="fName" placeholder="first name" required>     
+	<br>Midde Name: <input type="text" size=65 id="mName" placeholder="middle name" required>
+    <br>Last Name: <input type="text" size=65 id="lName" placeholder="last name" required>
+	<br>How high would you like to count? <input type="text" size=65 id="stopNumber" value="125" required>	
+	<br>Pick a number to divide by: <input type="text" size=65 id="firstDivisor" placeholder="" required>
+	<br>Pick a second number to divide by: <input type="text" size=65 id="secondDivisor" placeholder="" required>
+	<br>Pick a third number to divide by: <input type="text" size=65 id="thirdDivisor" placeholder="" required>
+	<br>A word of your choice: <input type="text" size=65 id="firstWord" value="start" required>
+	<br>A second word of your choice: <input type="text" size=65 id="secondWord" value="creating" required>
+	<br>A third word of your choice: <input type="text" size=65 id="thirdWord" value="magic" required> </p>
+<input type="button" value="Submit" onclick="formSubmit()"></form></div>
+<div id="function"><p id="jsLoop"></p>
+<script>
+function formSubmit() {
+	var firstName = document.getElementById('fName').value;
+	var middleName = document.getElementById('mName').value;
+	var lastName = document.getElementById('lName').value;
+	var newGreeting = document.getElementById('greeting').value;
+	document.getElementById('greeting').innerHTML = (" Welcome to Lunar Creations, " + firstName + " " + middleName + " " + lastName + ".");
+	var text = 0;
+	var i;
+	var fDivisor = document.getElementById('firstDivisor').value; 
+	var sDivisor = document.getElementById('secondDivisor').value;
+	var tDivisor = document.getElementById('thirdDivisor').value;
+	var fWord = document.getElementById('firstWord').value;
+	var sWord = document.getElementById('secondWord').value;
+	var tWord = document.getElementById('thirdWord').value;
+	var sNumber = document.getElementById('stopNumber').value;
+	for (i = 1; i <=sNumber; i++) {
+	if ( i % tDivisor == 0) {
+		document.getElementById('jsLoop').innerHTML = (text += i + ")" + " " + fWord + " " + sWord + " " + tWord + "<br>");
+                }else if (i % fDivisor == 0) {
+				document.getElementById('jsLoop').innerHTML = (text += i + ")" + " " + fWord + "<br>");
+				}else if (i % sDivisor == 0) {
+				document.getElementById('jsLoop').innerHTML = (text += i + ")" + " " + fWord + " " + sWord + " " + "<br>");
+				}else {
+				document.getElementById('jsLoop').innerHTML = (text += i + ")" + "<br>");
+				}
+	document.getElementById("jsLoop").innerHTML = text;
+}
+}
+</script> </div>
+<div data-include="components/footer.html"></div>
+<script src="scripts/HTMLInclude.js"></script>		
+</body>
+</html>

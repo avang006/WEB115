@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<div data-include="components/head.html"></div>
+</head>
+<body>
+<div data-include="components/header.html"></div>
+<h1 id="outerwrap">Lunar Creations</h1>
+<div id="layer1">magic in the making</div>
+<nav id="navigation">
+</nav>
+<h2>Fizz Buzz 3</h2>
+<h3 id="greeting">Welcome to Lunar Creations,</h3>
+<div id="box2">  
+<form id="fOne">
+    <p id="p2">First Name: <input type="text" size=65 id="fName" placeholder="first name" required>     
+	<br>Midde Name: <input type="text" size=65 id="mName" placeholder="middle name" required>
+    <br>Last Name: <input type="text" size=65 id="lName" placeholder="last name" required> </p>
+<input type="button" value="Submit" onclick="formSubmit()"></form></div>
+<div id="function"><p id="jsLoop"></p>
+<script>
+function formSubmit() {
+	var firstName = document.getElementById('fName').value;
+	var middleName = document.getElementById('mName').value;
+	var lastName = document.getElementById('lName').value;
+	var newGreeting = document.getElementById('greeting').value;
+	document.getElementById('greeting').innerHTML = (" Welcome to Lunar Creations, " + firstName + " " + middleName + " " + lastName + ".");
+var text = "";
+  var i;
+  for (i = 1; i <=140; i++) {
+  if (i%3 == 0 && i%5 == 0) {
+	document.getElementById('jsLoop').innerHTML = (text += i + ")" + " start creating magic " + "<br>");
+                }else if ( i % 3 === 0) {
+                    document.getElementById('jsLoop').innerHTML = (text += i + ")" + " start " + "<br>");
+				}else if ( i % 5 === 0){
+                    document.getElementById('jsLoop').innerHTML = (text += i + ")" + " creating " + "<br>");
+                }else {
+				document.getElementById('jsLoop').innerHTML = (text += i + ")" + "<br>");
+				}
+  document.getElementById("jsLoop").innerHTML = text;
+}
+}
+</script> </div>
+<div data-include="components/footer.html"></div>
+<script src="scripts/HTMLInclude.js"></script>	
+</body>
+</html>
