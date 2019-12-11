@@ -1,0 +1,47 @@
+body
+{
+  font-family: URW Gothic L;
+  color: white;
+  background-color: gray;
+  font-size: 100%;
+  margin: 20px auto;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color:white;
+}
+a:hover {
+	color: black;
+}
+p {
+  font-family: avantgarde;
+  font-size: 15px;
+  width: 300px;
+  margin: auto;
+} 
+#table1 {
+	width: 800px;
+	height: 50px;
+	margin: auto;
+	vertical-align: middle;	
+}
+#picture {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+footer {
+	width: 100%;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
